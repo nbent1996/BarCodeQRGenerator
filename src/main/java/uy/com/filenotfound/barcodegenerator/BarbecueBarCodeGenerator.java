@@ -64,7 +64,7 @@ public class BarbecueBarCodeGenerator implements IBarCodeGenerator {
 				break;
 
 			case Type_2OF5:
-				out = BarcodeFactory.createInt2of5(data, false);
+				out = BarcodeFactory.createStd2of5(data);
 				break;
 				
 			default:
